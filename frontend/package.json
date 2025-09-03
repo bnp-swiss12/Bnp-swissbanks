@@ -1,5 +1,12 @@
 {
   "name": "frontend",
+  {
+  "homepage": "https://https://bnp-swiss12.github.io/Bnp-swissbanks/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
   "version": "0.1.0",
   "private": true,
   "dependencies": {
